@@ -1,0 +1,38 @@
+/* ===============================facilities============================ */
+.facilities-page {
+  background-image: url("/assets/images/facilities/Intro.JPG");
+}
+.facilities-page .hero-body {
+  padding-left: 6.8%;
+}
+.facilities-hero-heading {
+  color: white !important;
+  font-size: 4rem;
+  font-weight: normal;
+  max-width: 35%;
+  margin-bottom: 2.5rem;
+}
+.facilities-page .subtitle {
+  color: white;
+  max-width: 35.5rem;
+}
+.quality-control {
+  height: 100vh;
+  padding: 10rem 0;
+}
+.quality-control .img {
+  /* background-size: 80%; */
+  background-image: url("/assets/images/facilities/quality.png");
+  background-position: center;
+  background-size: cover;
+}
+.quality-control .title {
+  font-size: 6rem;
+  /* max-width: 60%; */
+  margin-left: -7rem;
+  color: black;
+  font-weight: 900;
+}
+.quality-control-content {
+  padding-left: 0 !important;
+}

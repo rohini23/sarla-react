@@ -1,0 +1,15 @@
+/* ==========================================hero================================= */
+.hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center !important;
+}
+.is-fullheight {
+  min-height: calc(100vh - 52px) !important;
+}
+
+@media screen and (max-width: 480px) {
+  .is-fullheight {
+    min-height: calc(85vh - 52px) !important;
+  }
+}

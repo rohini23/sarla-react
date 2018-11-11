@@ -1,0 +1,23 @@
+/* ==========================facilities:quality control=================================== */
+.quality-control {
+  /* height: 80vh; */
+}
+.quality-control li {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  width: 60%;
+  display: flex;
+  align-items: baseline;
+}
+
+.quality-control p {
+  padding-left: 1rem;
+  position: relative;
+  text-align: left;
+  top: 3px;
+}
+.quality-control .qc-dash {
+  height: 0.1rem;
+  min-width: 2.1rem;
+  background-color: black;
+}

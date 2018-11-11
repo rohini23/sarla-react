@@ -1,0 +1,44 @@
+/* =========================================need info=============================*/
+.further-info {
+  height: 39em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.further-info .title {
+  font-size: 4rem;
+  line-height: 4.5rem;
+  font-weight: bold;
+  color: #000000 !important;
+  margin-bottom: 2rem;
+}
+.further-info .subtitle {
+  margin: auto;
+  color: #1d1d1d !important;
+  max-width: 40rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.furter-info-visit-here {
+  line-height: 1.5rem;
+  font-size: 1.5rem !important;
+  margin-top: 2.2rem !important;
+}
+.furter-info-visit-here > a {
+  color: #1d1d1d !important;
+}
+.furter-info-visit-here > a:hover {
+  border-bottom: 1px solid #1d1d1d;
+}
+
+@media screen and (max-width: 480px) {
+  .further-info .subtitle {
+    text-align: left;
+    margin-left: 2.4rem;
+  }
+  .furter-info-visit-here {
+    margin-right: 7rem !important;
+    margin-top: 4rem !important;
+  }
+}

@@ -1,0 +1,55 @@
+/* =================================product page================================= */
+.product-page {
+  background-image: url("/assets/images/product/product-hero.jpg");
+}
+.product-page-niche-section {
+  height: 85vh !important;
+}
+.product-page-niche-section .title {
+  width: 43%;
+  margin-bottom: 2rem !important;
+}
+.product-page-niche-section .niche-sector-content {
+  padding-top: 1rem;
+}
+
+/* ===============================product hero======================== */
+.prod-hero-content .product-hero-heading {
+  font-weight: 500 !important;
+  margin-bottom: 3rem;
+  height: 2.6rem;
+  font-size: 5.9rem;
+  line-height: 0.68;
+  line-height: 4rem;
+  color: #00879e !important;
+  font-style: normal;
+}
+.prod-hero-content .subtitle {
+  color: #616161 !important;
+  font-size: 2em;
+  line-height: 1.5rem;
+}
+.prod-hero-btn > :first-child {
+  margin-right: 3rem;
+}
+
+@media screen and (max-width: 480px) {
+  .product-page {
+    background-position: 21% !important;
+  }
+  .product-hero-heading {
+    font-size: 5rem !important;
+    line-height: 4.5rem !important;
+    margin-bottom: 7.5rem !important;
+  }
+  .prod-hero-content .subtitle {
+    line-height: 2.2rem !important;
+    max-width: 19rem;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  html {
+    font-size: 15px;
+  }
+}

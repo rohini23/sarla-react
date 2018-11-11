@@ -1,0 +1,139 @@
+/* @import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css"); */
+/* ==============================explore button================================  */
+.explore-btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: white;
+  border-color: white;
+  color: #008080;
+  border: 1px solid #008080;
+  font-size: 1rem;
+  margin-top: 26px;
+  font-weight: 500;
+}
+.explore-btn:hover {
+  color: white !important;
+  background-color: #008080;
+  border-color: #008080;
+}
+/* ==============================slider css================================  */
+.carousel-item {
+  background-color: #f94650;
+}
+.slider.is-fullheight {
+  min-height: calc(100vh - 50px) !important;
+}
+.slider,
+.title,
+.subtitle {
+  color: white !important;
+  background: none !important;
+}
+.slider span {
+  display: block;
+}
+.slider .title {
+  font-size: 2.8rem !important;
+  line-height: 3rem !important;
+  text-align: left !important;
+  position: unset !important;
+  padding: 0 !important;
+}
+.slider .title span {
+  font-size: inherit !important;
+}
+.container .subtitle {
+  font-size: 1.4rem;
+  font-weight: normal;
+  margin: 1rem 0 0.5rem !important;
+}
+.slider .hero-body .container span {
+  font-size: 1rem;
+  line-height: 1;
+}
+.carousel-item {
+  object-fit: cover;
+  object-position: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slider-first .hero {
+  position: absolute !important;
+  top: 0;
+  width: 100vw;
+}
+.slider .welcome-break {
+  font-size: 2.8rem !important;
+  line-height: 3rem !important;
+  font-weight: 500 !important;
+}
+.slider-first .subtitle {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.slider-second {
+  background-color: #2f3674;
+}
+.slider-second .subtitle {
+  width: 41.79%;
+}
+.is-background {
+  block-size: 100% 100%;
+}
+.slider-third {
+  background-image: url(/assets/images/slider/slider3.jpg);
+  background-position: center center;
+}
+.slider-fourth {
+  background-image: url(/assets/images/slider/slider4.jpg);
+  background-position: center center;
+}
+.slider-fourth .subtitle {
+  width: 33%;
+}
+.slider-fifth {
+  background-image: url(/assets/images/slider/slider5.jpg);
+  background-position: center center;
+}
+.slider-fifth .title {
+  line-height: 1;
+  word-spacing: 4px;
+}
+.dot {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #ffffff;
+  opacity: 0.6;
+  z-index: 9999999;
+}
+.op {
+  opacity: 1;
+}
+.dot:hover {
+  cursor: pointer;
+}
+.slider .hero-foot {
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  width: 8%;
+}
+.carousel-navigation {
+  opacity: 0;
+}
+@media screen and (max-width: 480px) {
+  .carousel-item .container {
+    opacity: 0;
+  }
+  .hero.is-fullheight {
+    min-height: 80vh;
+  }
+}

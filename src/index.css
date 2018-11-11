@@ -1,0 +1,19 @@
+/* -----------------------------index.css------------------------------ */
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900");
+
+html {
+  font-size: 10px !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

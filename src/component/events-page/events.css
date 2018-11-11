@@ -1,0 +1,60 @@
+/* ===============================events page================================== */
+.events-hero {
+  background-image: url("/assets/images/events/eventshero.jpg");
+}
+.events-title {
+  font-size: 4rem;
+  font-weight: normal;
+  line-height: 1;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.event-content {
+  max-width: 67%;
+  margin: 0 auto;
+}
+.event-content h1 {
+  font-size: 6rem;
+  font-weight: bold;
+  line-height: 0.92;
+  color: #00879e;
+  margin: 4rem 0 !important;
+}
+.events {
+  flex-wrap: wrap;
+  margin: 0 !important;
+}
+.event-description {
+  min-width: 19.2% !important;
+  padding: 0 5rem 5.4rem 0;
+}
+.event-description h2 {
+  font-size: 1.5rem;
+  color: #afca0b;
+  line-height: 1.7rem;
+  font-weight: bold;
+}
+.event-description h6 {
+  line-height: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+}
+.event-description p {
+  line-height: 1.5rem;
+  margin-bottom: 1.3rem;
+}
+.events-read-more-btn,
+.events-load-more-btn {
+  border-radius: 0.5rem;
+  border: solid 0.1rem #008080;
+}
+.load-more-btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.events-load-more-btn {
+  min-height: 5rem;
+  min-width: 12.4rem;
+  font-size: 1.5rem;
+  margin-bottom: 10.8rem;
+}
