@@ -10,6 +10,9 @@ html {
 body {
   overflow: hidden;
 }
+.columns {
+  margin: 0;
+}
 /* =================================Hello section=========================== */
 .hello-section,
 .Product-range-section,
@@ -18,11 +21,12 @@ body {
 .connect-section,
 .map {
   /* padding: 6% 0; */
-  padding-top: 13rem;
+  /* padding-top: 13rem; */
   height: 100vh;
+  align-items: center;
 }
-.hello-content .is-1 {
-  /* margin-bottom: 9rem !important; */
+.hello-section {
+  margin-top: 6.3rem !important;
 }
 .vertical-center {
   display: flex;
@@ -34,10 +38,12 @@ body {
   background-repeat: no-repeat;
   background-size: 200% 120%;
   background-position: 85% 30%;
+  height: 82vh;
 }
 .hello-content,
 .contact-content {
   padding: 2% 20% 0 4%;
+  height: 82vh;
 }
 
 .hello-content .is-4,
@@ -53,12 +59,16 @@ body {
 }
 
 .hello-content p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
   margin-bottom: 2rem;
 }
 
 .hello-content a {
   margin-top: 5rem;
+}
+.columns:not(:last-child) {
+  margin-bottom: 0;
 }
 /* ==================================PRODUCTRANGE==================================== */
 
@@ -67,7 +77,7 @@ body {
 .facilities-section .is-1,
 .contact-form .is-1 {
   color: #000 !important;
-  font-size: 6rem;
+  font-size: 4rem;
   line-height: 1em;
   font-weight: bold;
   /* margin-bottom: 11rem !important; */
@@ -77,22 +87,25 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: 82vh;
 }
 .Product-range-content,
 .facilities-content {
   padding-left: 22rem;
   padding-right: 4rem;
+  height: 82vh;
 }
 .Product-range-content h1,
 .facilities-content h1 {
-  min-width: 173%;
+  min-width: 200%;
   transform: translate(0%);
 }
 .Product-range-content p,
 .niche-sector-content p,
 .facilities-content p {
-  line-height: 1.5rem;
-  margin-bottom: 4rem;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  /* margin-bottom: 4rem; */
 }
 /* ==========================niche sector section============================== */
 
@@ -101,13 +114,16 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: 82vh;
 }
 .niche-sector-content {
   padding-left: 4rem;
   padding-right: 15rem;
+  height: 82vh;
 }
 .niche-sector-content h1 {
-  transform: translate(-40%);
+  min-width: 200%;
+  transform: translate(-20%);
 }
 /* ============================facilities section================================ */
 
@@ -116,6 +132,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: 82vh;
 }
 
 /* ====================connect with us============= */
@@ -124,10 +141,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 60% 25%;
-}
-.connect-section {
-  margin-bottom: 7rem !important;
-  margin-top: 0rem !important;
+  height: 82vh;
 }
 .connect-section h1 {
   transform: translate(-23%);
@@ -136,7 +150,10 @@ body {
 
 @media screen and (max-width: 480px) {
   body {
-    height: 80%;
+    height: 80% !important;
+  }
+  .title:not(:last-child) {
+    margin: 0;
   }
   .Product-range-content,
   .facilities-content {
@@ -144,30 +161,48 @@ body {
     padding-right: 2.4%;
   }
   .hello-section {
-    padding-top: 8rem;
+    height: 90vh;
+    margin-top: 0 !important;
   }
   .hello-section .is-1 {
-    font-size: 6rem !important;
-    margin-left: -6rem;
+    font-size: 8rem !important;
+    margin-left: -8rem;
     /* margin-bottom: 4.5rem !important; */
   }
   .hello-section .img {
     background-size: 200% 100%;
     background-position: 80%;
   }
+  .hello-content {
+    padding: 0 1.5rem;
+  }
   .hello-content a {
     margin-top: 0;
   }
+  .hello-content p {
+    margin-bottom: 0.8rem !important;
+  }
   .img {
     background-position: center;
+  }
+  .Product-range-section .img,
+  .niche-sector-section .img,
+  .facilities-section .img,
+  .connect-section .img {
+    max-height: 30rem;
   }
   .Product-range-section,
   .niche-sector-section,
   .facilities-section,
   .connect-section {
-    padding-top: 3rem;
+    height: 60vh;
   }
-
+  .Product-range-content,
+  .niche-sector-content,
+  .facilities-content,
+  .connect-content {
+    height: 30rem;
+  }
   .Product-range-content p,
   .niche-sector-content p,
   .facilities-content p {
@@ -178,8 +213,6 @@ body {
   .facilities-section .is-1,
   .connect-section .is-1 {
     font-size: 4.5rem !important;
-    /* margin-bottom: 1rem; */
-    /* margin-bottom: 7rem !important; */
   }
   .hello-section p,
   .Product-range-section p,
@@ -187,16 +220,11 @@ body {
   .facilities-section p {
     font-size: 1rem;
     margin-bottom: 1rem;
+    line-height: 1.2rem;
   }
 
-  .hello-section,
-  .Product-range-section,
-  .niche-sector-section,
-  .facilities-section,
   .connect-section,
   .map {
-    /* padding: 6% 0; */
-    /* padding-top: 1%; */
     height: 100%;
   }
   .contact-content h1 {
@@ -211,7 +239,7 @@ body {
     min-height: 30vh;
   }
   .niche-sector-content h1 {
-    min-width: 17.1rem;
+    min-width: 19rem;
   }
   .niche-sector-content {
     padding-left: 2rem;

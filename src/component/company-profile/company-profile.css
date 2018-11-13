@@ -1,0 +1,42 @@
+.events-hero {
+  background-image: url("/assets/images/profile/ProfileHero.jpg");
+}
+.events-title {
+  font-size: 6rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.profile-overview {
+  padding-bottom: 6.4rem;
+}
+.quality-policy {
+  height: 100vh;
+  padding: 10rem 0;
+}
+.quality-policy .img {
+  /* background-size: 80%; */
+  background-image: url("/assets/images/profile/Qualitypolicy.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.quality-policy .title {
+  font-size: 4rem;
+  line-height: 4rem;
+  /* max-width: 60%; */
+  margin-left: -7rem;
+  color: black !important;
+  font-weight: bold;
+  margin-bottom: 7rem+6;
+}
+.quality-policy .subtitle {
+  color: black !important;
+  margin-left: -7rem;
+  font-size: 3rem;
+  line-height: 3rem;
+  font-weight: bold;
+}
+.quality-policy-content {
+  padding-left: 0 !important;
+}

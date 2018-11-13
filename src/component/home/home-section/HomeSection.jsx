@@ -15,6 +15,7 @@ class HomeSection extends Component {
       isFirst,
       isLast,
       heading,
+      subheading,
       className,
       contentName,
       imgIs4,
@@ -53,6 +54,11 @@ class HomeSection extends Component {
               >
                 {heading}
               </h1>
+              {subheading ? (
+                <h2 className="subtitle is-2 is-uppercase">{subheading}</h2>
+              ) : (
+                ""
+              )}
               {this.props.children}
             </div>
           )}

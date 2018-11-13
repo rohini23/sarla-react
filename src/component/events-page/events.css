@@ -3,8 +3,8 @@
   background-image: url("/assets/images/events/eventshero.jpg");
 }
 .events-title {
-  font-size: 4rem;
-  font-weight: normal;
+  font-size: 6rem;
+  font-weight: 500;
   line-height: 1;
   color: #ffffff;
   text-transform: uppercase;
@@ -17,7 +17,7 @@
   font-size: 6rem;
   font-weight: bold;
   line-height: 0.92;
-  color: #00879e;
+  color: #00879e !important;
   margin: 4rem 0 !important;
 }
 .events {

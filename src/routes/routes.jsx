@@ -4,6 +4,7 @@ import Home from "../component/home/Home";
 import ProductPage from "../component/product-page/ProductPage";
 import Facilities from "../component/facilities-page/Facilities";
 import Events from "../component/events-page/Events";
+import CompanyProfile from "../component/company-profile/CompanyProfile";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 export default function Routes() {
@@ -14,6 +15,7 @@ export default function Routes() {
         <Route path="/products" render={() => <ProductPage />} />
         <Route path="/facilities" render={() => <Facilities />} />
         <Route path="/events" render={() => <Events />} />
+        <Route path="/profile" render={() => <CompanyProfile />} />
       </Switch>
     </Router>
   );

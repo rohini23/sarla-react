@@ -7,14 +7,17 @@
 }
 .facilities-hero-heading {
   color: white !important;
-  font-size: 4rem;
-  font-weight: normal;
-  max-width: 35%;
+  font-size: 6rem;
+  line-height: 5rem;
+  font-weight: 500;
+  max-width: 53%;
   margin-bottom: 2.5rem;
 }
 .facilities-page .subtitle {
+  font-size: 2rem !important;
+  line-height: 2.3rem;
   color: white;
-  max-width: 35.5rem;
+  max-width: 41.5rem;
 }
 .quality-control {
   height: 100vh;
@@ -27,11 +30,13 @@
   background-size: cover;
 }
 .quality-control .title {
-  font-size: 6rem;
+  font-size: 4rem;
+  line-height: 4rem;
   /* max-width: 60%; */
   margin-left: -7rem;
-  color: black;
-  font-weight: 900;
+  color: black !important;
+  font-weight: bold;
+  margin-bottom: 7rem+6;
 }
 .quality-control-content {
   padding-left: 0 !important;
